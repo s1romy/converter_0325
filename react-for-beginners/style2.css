@@ -1,0 +1,61 @@
+@import "reset.css";
+
+body {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: flex-start;
+  background-color: blanchedalmond;
+  padding: 100px 500px 650px;
+  font-family: "Kanit", sans-serif;
+  font-weight: 100;
+  font-size: large;
+}
+
+div {
+  width: 400px;
+  height: 80px;
+  background-color: aqua;
+}
+
+body h1 {
+  font-family: "Kanit", sans-serif;
+  font-size: xxx-large;
+  font-weight: 400;
+  text-align: center;
+}
+
+.selectDiv {
+  display: flex;
+  align-items: center;
+}
+
+select {
+  all: unset;
+  display: flex;
+  padding: 10px 10px;
+  align-content: center;
+}
+label,
+input {
+  all: unset;
+  padding: 10px 10px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: bisque;
+}
+
+label {
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+  margin-bottom: 10px;
+}
+
+button {
+  all: unset;
+  padding: 30px 30px;
+  text-align: center;
+  background-color: cornsilk;
+  border-radius: 10px;
+}
